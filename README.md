@@ -6,7 +6,7 @@ Our proposed solution is a device to directly sample the laser as its reading th
 This project is currently months away from an initial release: parts have been ordered by the small group of volunteers and current resources regarding control of the OPU are being slowly assembled from parties that have engaged in research not directly addressing the project, but still directly applicable to the goals outlined above.
 
 # Resources
-###### Links to Projects that Contain Applicable Research and Resources
+#### Links to Projects that Contain Applicable Research and Resources
 Project #1: Describes & provides a circuit to communicate with three diff. Blu-Ray OPUs
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066758/
@@ -20,20 +20,25 @@ http://www.diyouware.com/node/161
 https://www.digchip.com/datasheets/parts/datasheet/287/MLX75012.php (photodiode datasheet)
 
 Project #3: Controlling blu-ray diode to etch material
+
 https://wiki.das-labor.org/w/LaserExposer
+
 https://github.com/das-labor/laser-exposer
 
-###### Files, Programs & Tools
+#### Files, Programs & Tools
 Project 1: Tools & Tool websites used / referenced in OPU Biosensing Paper
 
 https://www.cdspeed2000.com/download.html - Opti Drive Control
+
 http://qpxtool.sourceforge.net/download.html - QPxTools
+
 http://www.k-probe.com/download-kprobe-k-probe.php - K-Probe
 
-###### Technical Resources
+#### Technical Resources
 Playstation 3 & 4 Blu-Ray Drive Technical Notes
+
 https://www.psdevwiki.com/ps4/Bluray_Drive
 
 https://www.psdevwiki.com/ps3/Bluray_Drive
 
-###### Parts List
+#### Parts List
