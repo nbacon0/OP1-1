@@ -1,4 +1,4 @@
-The OP1:1 project is our effort to address an urgent need in the digital preservation community, namely that CDs are almost 40 years old, and are failing at an alarming rate: they're delaminating, suffering from disc rot and a slew of other issues. We want to archive as much as possible before too much of the information stored on these discs are lost to time.
+The OP1:1 project is our effort to address an urgent need in the digital preservation community, namely that CDs are almost 40 years old, and are failing at an alarming rate: they're delaminating, suffering from disc rot and a slew of other issues.
 
 Our proposed solution is a device to directly sample the laser as its reading the disc and storing this (very large) raw dump for safe-keeping and process later. The benefit of this approach is that it can be agnostic to the encoding of the discs. The same device that can dump audio CDs could be used to dump video CDs, photo CDs, and other proprietary formats.
     
