@@ -7,6 +7,7 @@ This project is currently months away from an initial release: parts have been o
 
 # Resources
 #### Links to Projects that Contain Applicable Research and Resources
+
 Project #1: Describes & provides a circuit to communicate with three diff. Blu-Ray OPUs
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066758/
@@ -25,6 +26,7 @@ https://wiki.das-labor.org/w/LaserExposer
 
 https://github.com/das-labor/laser-exposer
 
+
 #### Files, Programs & Tools
 Project 1: Tools & Tool websites used / referenced in OPU Biosensing Paper
 
@@ -34,6 +36,7 @@ http://qpxtool.sourceforge.net/download.html - QPxTools
 
 http://www.k-probe.com/download-kprobe-k-probe.php - K-Probe
 
+
 #### Technical Resources
 Playstation 3 & 4 Blu-Ray Drive Technical Notes
 
@@ -41,4 +44,23 @@ https://www.psdevwiki.com/ps4/Bluray_Drive
 
 https://www.psdevwiki.com/ps3/Bluray_Drive
 
+
 #### Parts List
+Preferred Dev Kit
+
+$57.79 - https://tinyurl.com/y2vp9gc6 - Board (for additional I/O) 
+
+$30.79 - https://tinyurl.com/y5bf4q26 - MCU (WaveShare STM32 Core Board + STM32F7 (8MB of RAM)
+
+Breakout Boards
+
+$7.19 - https://tinyurl.com/y5zseyle - Pack of 5 - FPC/FFC Flat Flexible Cable Adapter Board Connectors
+
+$5.69 - https://tinyurl.com/y3howaey - Pack of 5 - FPC/FFC Flat Flexible Cable Adapter Board Connectors 
+
+
+
+
+
+
+
