@@ -82,4 +82,9 @@ $15.90 - https://tinyurl.com/y3cqtx5q - OPU + Sled (KEM-410CCA) International Sh
 
 $13.50 - https://tinyurl.com/y3bo29z2 - OPU Only (KEM-410CCA) International Shipping
 
+###### Xbox 360 Drive & OPU
+$15.50 - $50 (eBay France) - https://tinyurl.com/y4n3xux9 - Xbox 360 HD DVD Drive (international shipping)
+
+ $5.69 - https://tinyurl.com/y4dnyeug - OPU + Sled (PHR-803T) International Shipping
+
 
