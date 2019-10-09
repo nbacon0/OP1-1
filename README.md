@@ -26,6 +26,10 @@ https://wiki.das-labor.org/w/LaserExposer
 
 https://github.com/das-labor/laser-exposer
 
+Project #4 Bypassing DVD Drive Circuits to Read Raw Data
+
+https://debugmo.de/2007/07/read-your-dvds-the-raw-way/
+
 
 #### Files, Programs & Tools
 Project 1: Tools & Tool websites used / referenced in OPU Biosensing Paper
@@ -36,8 +40,13 @@ http://qpxtool.sourceforge.net/download.html - QPxTools
 
 http://www.k-probe.com/download-kprobe-k-probe.php - K-Probe
 
+Project #4 Tools Developed (software library to deal with raw DVD (NRZI) bitstreams.)
+
+https://github.com/tmbinc/libdvd
+
 
 #### Technical Resources
+
 Playstation 3 & 4 Blu-Ray Drive Technical Notes
 
 https://www.psdevwiki.com/ps4/Bluray_Drive
@@ -46,6 +55,7 @@ https://www.psdevwiki.com/ps3/Bluray_Drive
 
 
 #### Parts List
+
 Preferred Dev Kit
 
 $57.79 - https://tinyurl.com/y2vp9gc6 - Board (for additional I/O) 
