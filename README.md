@@ -8,11 +8,15 @@ This project is currently months away from an initial release: parts have been o
 # Resources
 ###### Links to Projects that Contain Applicable Research and Resources
 Project #1: Describes & provides a circuit to communicate with three diff. Blu-Ray OPUs
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066758/
+
 https://pubs.acs.org/doi/suppl/10.1021/acssensors.8b00340/suppl_file/se8b00340_si_001.pdf
 
 Project #2: Reverse engineering the Xbox 360 OPU
+
 http://www.diyouware.com/node/161
+
 https://www.digchip.com/datasheets/parts/datasheet/287/MLX75012.php (photodiode datasheet)
 
 Project #3: Controlling blu-ray diode to etch material
