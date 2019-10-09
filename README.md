@@ -6,7 +6,7 @@ Our proposed solution is a device to directly sample the laser as its reading th
 This project is currently months away from an initial release: parts have been ordered by the small group of volunteers and current resources regarding control of the OPU are being slowly assembled from parties that have engaged in research not directly addressing the project, but still directly applicable to the goals outlined above.
 
 ###### Disclaimer
-None of the below projects or resources are associated with the OP1:1 Project unless noted
+None of the below projects or resources are associated with the OP1:1 Project unless direclty noted.
 
 # Resources
 
