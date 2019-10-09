@@ -1,6 +1,6 @@
 The OP1:1 project is our effort to address an urgent need in the digital preservation community, namely that optical media (CDs, DVDS, etc.) are almost 40 years old, and are failing at an alarming rate: they're delaminating, suffering from disc rot and a slew of other issues.
 
-Our proposed solution is a device to directly sample the laser as its reading the disc and storing this (very large) raw dump for safe-keeping and process later. The benefit of this approach is that it can be agnostic to the encoding of the discs. The same device that can preserve audio discs could be used to preserve video discs, photo discs, and other proprietary formats.
+Our proposed solution is a (completely open source) device to directly sample the laser as its reading the disc and storing this (very large) raw dump for safe-keeping and process later. The benefit of this approach is that it can be agnostic to the encoding of the discs. The same device that can preserve audio discs could be used to preserve video discs, photo discs, and other proprietary formats.
     
 # Current Status
 This project is currently months away from an initial release: parts have been ordered by the small group of volunteers and current resources regarding control of the OPU are being slowly assembled from parties that have engaged in research not directly addressing our need, but are still directly applicable to the goals outlined above.
