@@ -14,31 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Barrel_Jack J1
-U 1 1 5E18CE6A
-P 1450 2300
-F 0 "J1" H 1507 2625 50  0000 C CNN
-F 1 "Barrel_Jack" H 1507 2534 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 1500 2260 50  0001 C CNN
-F 3 "https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_4840.2201.pdf" H 1500 2260 50  0001 C CNN
-F 4 "486-3381-ND" H 1450 2300 50  0001 C CNN "Digikey"
-	1    1450 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5E19C530
-P 2250 2650
-F 0 "#PWR01" H 2250 2400 50  0001 C CNN
-F 1 "GND" H 2255 2477 50  0000 C CNN
-F 2 "" H 2250 2650 50  0001 C CNN
-F 3 "" H 2250 2650 50  0001 C CNN
-	1    2250 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 2400 2250 2650
-$Comp
 L Regulator_Linear:LM1117-ADJ U2
 U 1 1 5E19E5EF
 P 3750 3300
@@ -409,42 +384,20 @@ F 3 "~" H 10350 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9450 5000 9450 4100
-Wire Wire Line
-	9450 4100 10150 4100
-Wire Wire Line
-	9450 4000 10150 4000
-Wire Wire Line
 	8150 3900 8700 3900
-Wire Wire Line
-	9550 3300 9550 3900
-Wire Wire Line
-	9550 3900 10150 3900
-Wire Wire Line
-	9650 1600 9650 3800
-Wire Wire Line
-	9650 3800 10150 3800
-Wire Wire Line
-	9450 3900 9450 4000
 $Comp
 L power:GND #PWR06
 U 1 1 5E251D94
-P 9950 4350
-F 0 "#PWR06" H 9950 4100 50  0001 C CNN
-F 1 "GND" H 9955 4177 50  0000 C CNN
-F 2 "" H 9950 4350 50  0001 C CNN
-F 3 "" H 9950 4350 50  0001 C CNN
-	1    9950 4350
+P 9900 4350
+F 0 "#PWR06" H 9900 4100 50  0001 C CNN
+F 1 "GND" H 9905 4177 50  0000 C CNN
+F 2 "" H 9900 4350 50  0001 C CNN
+F 3 "" H 9900 4350 50  0001 C CNN
+	1    9900 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 4350 9950 4200
-Wire Wire Line
-	9950 4200 10150 4200
-Text Notes 1100 2600 0    50   ~ 0
+Text Notes 1100 2500 0    50   ~ 0
 +12v to +18v acceptable
-Wire Wire Line
-	1750 2400 2250 2400
 Wire Wire Line
 	4700 1600 5250 1600
 Wire Wire Line
@@ -520,11 +473,9 @@ Wire Wire Line
 	3200 5800 4200 5800
 Connection ~ 5250 1600
 Wire Wire Line
-	5250 1600 9650 1600
+	5250 1600 9500 1600
 Connection ~ 5250 3300
 Connection ~ 5250 5000
-Wire Wire Line
-	5250 5000 9450 5000
 Wire Wire Line
 	5250 3300 5950 3300
 Wire Wire Line
@@ -532,9 +483,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3600 5950 3300
 Connection ~ 6500 3600
-Connection ~ 5950 3300
-Wire Wire Line
-	5950 3300 9550 3300
 Wire Wire Line
 	6900 4000 7050 4000
 Wire Wire Line
@@ -567,19 +515,12 @@ F 3 "~" H 8900 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 4300 8700 3900
-Connection ~ 8700 3900
-Wire Wire Line
-	8700 3900 9450 3900
 Wire Notes Line
 	8900 3450 8900 4800
 Wire Notes Line
 	6150 4800 8900 4800
 Wire Notes Line
 	6150 3450 8900 3450
-Wire Wire Line
-	1750 2200 2750 2200
-Text Notes 2000 2150 0    50   ~ 0
-Add protection?
 $Comp
 L Device:CP_Small C4
 U 1 1 5E2CDF73
@@ -648,4 +589,160 @@ Wire Wire Line
 Connection ~ 3200 5000
 Wire Wire Line
 	3200 5000 3450 5000
+Wire Wire Line
+	1750 2200 2750 2200
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5E310E8A
+P 1550 2200
+F 0 "J1" H 1468 2417 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1468 2326 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1550 2200 50  0001 C CNN
+F 3 "~" H 1550 2200 50  0001 C CNN
+	1    1550 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2300 2250 2300
+Wire Wire Line
+	2250 2300 2250 2550
+$Comp
+L power:GND #PWR01
+U 1 1 5E19C530
+P 2250 2550
+F 0 "#PWR01" H 2250 2300 50  0001 C CNN
+F 1 "GND" H 2255 2377 50  0000 C CNN
+F 2 "" H 2250 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J3
+U 1 1 5E323659
+P 10350 3450
+F 0 "J3" H 10322 3382 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 10322 3473 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10350 3450 50  0001 C CNN
+F 3 "~" H 10350 3450 50  0001 C CNN
+	1    10350 3450
+	-1   0    0    1   
+$EndComp
+Text Label 10150 3550 2    50   ~ 0
++3.3v
+Text Label 10150 3450 2    50   ~ 0
+-5v
+Text Label 10150 3350 2    50   ~ 0
++5v
+Text Label 10150 3250 2    50   ~ 0
++8v
+Wire Wire Line
+	10150 3650 9900 3650
+Wire Wire Line
+	9900 3650 9900 4200
+Wire Wire Line
+	9900 4200 10150 4200
+Wire Wire Line
+	10150 4100 9800 4100
+Wire Wire Line
+	9800 4100 9800 3550
+Wire Wire Line
+	9800 3550 10150 3550
+Wire Wire Line
+	10150 4000 9700 4000
+Wire Wire Line
+	9700 4000 9700 3450
+Wire Wire Line
+	9700 3450 10150 3450
+Wire Wire Line
+	10150 3900 9600 3900
+Wire Wire Line
+	9600 3900 9600 3350
+Wire Wire Line
+	9600 3350 10150 3350
+Wire Wire Line
+	10150 3800 9500 3800
+Wire Wire Line
+	9500 3800 9500 3250
+Wire Wire Line
+	9500 3250 10150 3250
+Wire Wire Line
+	9500 3250 9500 1600
+Connection ~ 9500 3250
+Wire Wire Line
+	9800 4100 9800 5000
+Wire Wire Line
+	5250 5000 9800 5000
+Connection ~ 9800 4100
+Wire Wire Line
+	9700 4000 9150 4000
+Wire Wire Line
+	9150 4000 9150 3900
+Wire Wire Line
+	9150 3900 8700 3900
+Connection ~ 9700 4000
+Connection ~ 8700 3900
+Wire Wire Line
+	5950 3300 9250 3300
+Wire Wire Line
+	9250 3300 9250 3900
+Wire Wire Line
+	9250 3900 9600 3900
+Connection ~ 5950 3300
+Connection ~ 9600 3900
+Wire Wire Line
+	9900 4350 9900 4200
+Connection ~ 9900 4200
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5E38A7BA
+P 1650 5150
+F 0 "J4" H 1758 5331 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1758 5240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1650 5150 50  0001 C CNN
+F 3 "~" H 1650 5150 50  0001 C CNN
+	1    1650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5E38D05F
+P 1650 5550
+F 0 "J5" H 1758 5731 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1758 5640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1650 5550 50  0001 C CNN
+F 3 "~" H 1650 5550 50  0001 C CNN
+	1    1650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E38D67A
+P 2050 5850
+F 0 "#PWR07" H 2050 5600 50  0001 C CNN
+F 1 "GND" H 2055 5677 50  0000 C CNN
+F 2 "" H 2050 5850 50  0001 C CNN
+F 3 "" H 2050 5850 50  0001 C CNN
+	1    2050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5650 2050 5650
+Wire Wire Line
+	2050 5650 2050 5850
+Wire Wire Line
+	1850 5550 2050 5550
+Wire Wire Line
+	2050 5550 2050 5650
+Connection ~ 2050 5650
+Wire Wire Line
+	1850 5250 2050 5250
+Wire Wire Line
+	2050 5250 2050 5550
+Connection ~ 2050 5550
+Wire Wire Line
+	1850 5150 2050 5150
+Wire Wire Line
+	2050 5150 2050 5250
+Connection ~ 2050 5250
 $EndSCHEMATC
